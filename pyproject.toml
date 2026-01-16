@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "mass-pkdv"
 version = "0.1.0"
 description = "Product Kernel Density Visualization based on MASS"
-requires-python = ">=3.8"
+requires-python = ">=3.7"
 
 [tool.setuptools]
 packages = ["mass_pkdv"]
