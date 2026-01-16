@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="mass-pkdv",  # PyPI 上的包名
+    name="mass-pkdv", 
     version="0.1.0",
     author="MASS-group",
     author_email="",
@@ -12,7 +12,7 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/MASS-group/MASS",
-    packages=find_packages(),  # 自动查找 mass_pkdv 包
+    packages=find_packages(), 
     include_package_data=True,
     package_data={
         "mass_pkdv": ["bin/mass_pkdv.exe"]
@@ -25,3 +25,4 @@ setup(
         "Operating System :: OS Independent",
     ],
 )
+
