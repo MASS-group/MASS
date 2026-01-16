@@ -52,4 +52,3 @@ run_mass(input_file, output_file, dim=2, method=2, n_x=800, k_type_x=3, b_x_rati
 ```bash
 bin\mass_pkdv.exe data\data data\result.txt
 
-Place `mass_pkdv.exe` into `mass_pkdv/bin/` before use.
