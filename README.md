@@ -50,5 +50,5 @@ run_mass(input_file, output_file, dim=2, method=2, n_x=800, k_type_x=3, b_x_rati
 ### Command Line
 
 ```bash
-bin\mass_pkdv.exe data\data data\result.txt
+bin\mass_pkdv.exe data\data.dat data\result.txt
 
